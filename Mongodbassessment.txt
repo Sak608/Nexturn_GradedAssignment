@@ -19,7 +19,7 @@ db.orders.insertMany([
 
 2. Finding Orders for a Specific Customer:
 
-const customer = db.customers.findOne({ name: "John Doe" });
+const customer = db.customers.findOne({ name: "Ram" });
 
 db.orders.find({ customer_id: customer._id });
 
@@ -130,7 +130,7 @@ db.orders.aggregate([
 
 2. Finding All Products Ordered by a Specific Customer
 
-const customer = db.customers.findOne({ name: "John Doe" });
+const customer = db.customers.findOne({ name: "Ram" });
 
 db.orders.aggregate([
   { $match: { customer_id: customer._id } },
@@ -189,7 +189,7 @@ const janeSmith = db.customers.findOne({ name: "Jane Smith" });
 
 db.orders.insertOne({
   order_id: "ORD123461",
-  customer_id: janeSmith._id,
+  customer_id: Sakshi._id,
   order_date: new Date(),
   status: "processing",
   items: [
