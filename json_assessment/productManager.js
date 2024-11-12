@@ -41,7 +41,7 @@ const jsonData = `[
     return products.filter(p => p.category === category);
   }
   
-  addProduct({ id: 4, name: "Chair", category: "Furniture", price: 120, available: true });
+  addProduct({ id: 4, name: "Table", category: "Furniture", price: 100, available: true });
   
   updatePrice(1, 1400);
   
