@@ -1,11 +1,11 @@
 1. Creating the Collections and Insert Data:
 
 db.customers.insertMany([
-  { "_id": 1, "name": "John Doe", "email": "johndoe@example.com", "address": { "street": "123 Main St", "city": "Springfield", "zipcode": "12345" }, "phone": "555-1234", "registration_date": ISODate("2023-01-01T12:00:00Z") },
-  { "_id": 2, "name": "Jane Smith", "email": "janesmith@example.com", "address": { "street": "456 Elm St", "city": "Shelbyville", "zipcode": "67890" }, "phone": "555-5678", "registration_date": ISODate("2023-02-01T12:00:00Z") },
-  { "_id": 3, "name": "Alice Brown", "email": "alicebrown@example.com", "address": { "street": "789 Oak St", "city": "Capital City", "zipcode": "11223" }, "phone": "555-8765", "registration_date": ISODate("2023-03-01T12:00:00Z") },
-  { "_id": 4, "name": "Charlie Green", "email": "charliegreen@example.com", "address": { "street": "101 Pine St", "city": "Springfield", "zipcode": "33445" }, "phone": "555-4321", "registration_date": ISODate("2023-04-01T12:00:00Z") },
-  { "_id": 5, "name": "Emily White", "email": "emilywhite@example.com", "address": { "street": "202 Maple St", "city": "Shelbyville", "zipcode": "55667" }, "phone": "555-6789", "registration_date": ISODate("2023-05-01T12:00:00Z") }
+  { "_id": 1, "name": "Ram", "email": "ram@example.com", "address": { "street": "Choudhry gali", "city": "Delhi", "zipcode": "12345" }, "phone": "555-1234", "registration_date": ISODate("2023-01-01T12:00:00Z") },
+  { "_id": 2, "name": "Sakshi", "email": "Sakshi@example.com", "address": { "street": "Kalambagh road", "city": "Muzaffarpur", "zipcode": "67890" }, "phone": "555-5678", "registration_date": ISODate("2023-02-01T12:00:00Z") },
+  { "_id": 3, "name": "Shivam", "email": "Shivam@example.com", "address": { "street": "789 Oak St", "city": "Capital City", "zipcode": "11223" }, "phone": "555-8765", "registration_date": ISODate("2023-03-01T12:00:00Z") },
+  { "_id": 4, "name": "Amit Shukla", "email": "AmitShukla@example.com", "address": { "street": "101 Pine St", "city": "Springfield", "zipcode": "33445" }, "phone": "555-4321", "registration_date": ISODate("2023-04-01T12:00:00Z") },
+  { "_id": 5, "name": "Chanchal", "email": "Chanchal@example.com", "address": { "street": "202 Maple St", "city": "Shelbyville", "zipcode": "55667" }, "phone": "555-6789", "registration_date": ISODate("2023-05-01T12:00:00Z") }
 ]);
 
 // Create the orders collection and insert data with numeric customer_id
